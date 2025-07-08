@@ -42,6 +42,7 @@ npm install create-unique-shared-composable
 
 ```javascript
 import { createUniqueSharedComposable } from 'create-unique-shared-composable'
+
 const useFoo = createUniqueSharedComposable((_) => {
   const counter = ref(0)
   const doubled = computed(() => counter.value * 2)
