@@ -44,7 +44,7 @@
     "vue": ">=3.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0",
+    "@antfu/eslint-config": "^6.7.3",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@tsconfig/node18": "^18.2.6",
