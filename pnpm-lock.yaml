@@ -18,7 +18,7 @@ importers:
         specifier: ^20.3.1
         version: 20.3.1
       '@tsconfig/node22':
-        specifier: ^22.0.0
+        specifier: ^22.0.5
         version: 22.0.5
       '@vitest/coverage-istanbul':
         specifier: ^4.0.17
