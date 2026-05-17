@@ -45,8 +45,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.0.1",
-    "@commitlint/cli": "^20.3.1",
-    "@commitlint/config-conventional": "^20.3.1",
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
     "@tsconfig/node22": "^22.0.5",
     "@vitest/coverage-istanbul": "^4.0.17",
     "@vue/test-utils": "^2.4.6",
