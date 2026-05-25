@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/robertwang1001/createUniqueSharedComposable/compare/v2.0.0...v3.0.0) (2026-05-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* require node 24
+
+### Miscellaneous Chores
+
+* require node 24 ([042fbe3](https://github.com/robertwang1001/createUniqueSharedComposable/commit/042fbe30d15b74864c1882dea6605d82226d6252))
+
 ## [2.0.0](https://github.com/GloryWong/createUniqueSharedComposable/compare/v1.0.0...v2.0.0) (2026-01-15)
 
 
