@@ -1,7 +1,15 @@
 shellEmulator: true
 
 trustPolicy: no-downgrade
+trustPolicyExclude:
+  - semver@6.3.1
+  - undici-types@6.21.0
+  - tinyexec@1.2.2
 
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+
+allowBuilds:
+  esbuild: true
+  simple-git-hooks: true

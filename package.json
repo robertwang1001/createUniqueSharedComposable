@@ -2,16 +2,16 @@
   "name": "create-unique-shared-composable",
   "type": "module",
   "version": "2.0.0",
-  "description": "",
+  "packageManager": "pnpm@11.3.0+sha512.2c403d6594527287672b1f7056343a1f7c3634036a67ffabfcc2b3d7595d843768f8787148d1b57cf7956c90606bbd192857c363af19e96d2d0ec9ec5741d215",
+  "description": "Create Vue3 unique shared composables based on keys.",
   "author": {
-    "name": "GloryWong",
-    "email": "glorywong1001@gmail.com",
-    "url": "https://glorywong.com"
+    "name": "Robert Wang",
+    "email": "glorywong1001@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/GloryWong/createUniqueSharedComposable#readme",
-  "repository": "github:GloryWong/createUniqueSharedComposable",
-  "bugs": "https://github.com/GloryWong/createUniqueSharedComposable/issues",
+  "homepage": "https://github.com/robertwang1001/createUniqueSharedComposable#readme",
+  "repository": "github:robertwang1001/createUniqueSharedComposable",
+  "bugs": "https://github.com/robertwang1001/createUniqueSharedComposable/issues",
   "keywords": [
     "vue",
     "vue3",
@@ -28,7 +28,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "scripts": {
     "build": "tsc",
@@ -44,19 +44,19 @@
     "vue": ">=3.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.0.1",
-    "@commitlint/cli": "^20.3.1",
-    "@commitlint/config-conventional": "^20.3.1",
-    "@tsconfig/node22": "^22.0.5",
-    "@vitest/coverage-istanbul": "^4.0.17",
-    "@vue/test-utils": "^2.4.6",
-    "eslint": "^9.39.2",
-    "happy-dom": "^20.3.0",
-    "lint-staged": "^16.2.7",
+    "@antfu/eslint-config": "^9.0.0",
+    "@commitlint/cli": "^21.0.1",
+    "@commitlint/config-conventional": "^21.0.1",
+    "@tsconfig/node24": "^24.0.4",
+    "@vitest/coverage-istanbul": "^4.1.7",
+    "@vue/test-utils": "^2.4.10",
+    "eslint": "^10.4.0",
+    "happy-dom": "^20.9.0",
+    "lint-staged": "^17.0.5",
     "simple-git-hooks": "^2.13.1",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.17",
-    "vue": "^3.5.26"
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7",
+    "vue": "^3.5.34"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm commitlint --edit ${1}",
@@ -64,5 +64,10 @@
   },
   "lint-staged": {
     "*": "pnpm lint:fix"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }

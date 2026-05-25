@@ -1,7 +1,0 @@
-{
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
-  // Disable the default formatter, use eslint instead
-  "prettier.enable": false
-}

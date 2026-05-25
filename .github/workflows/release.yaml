@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  id-token: write
 
 jobs:
   release:
@@ -37,7 +38,6 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v6
         with:
-          version: 10.28.0
           run_install: false
 
       - name: Setup Node.js
@@ -51,7 +51,4 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Publish to NPM
-        # The --no-git-checks flag is needed to bypass an issue with pnpm related to GitHub's detached HEAD state during releases.
-        run: pnpm publish --access public --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish
