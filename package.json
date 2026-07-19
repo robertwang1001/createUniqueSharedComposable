@@ -2,7 +2,7 @@
   "name": "create-unique-shared-composable",
   "type": "module",
   "version": "3.0.0",
-  "packageManager": "pnpm@11.11.0+sha512.4463f65fd80ed80d69bc1d4bf163ee94f605c7380fc318bb5b2ebe15f8cd12d49c51a4d59e951b401e764d3b6ca751cbf51bc50ed7001a6bcb4935e684c34882",
+  "packageManager": "pnpm@11.13.1+sha512.b2fc7683b8a6525414e7d13e1ba28caaddde96bf66ec540bfaeb7e702b81f3e0be4d1f295edf7f9fe0396740a8dce4509c582ddf79891f4543fea32d37645f25",
   "description": "Create Vue3 unique shared composables based on keys.",
   "author": {
     "name": "Robert Wang",
@@ -50,13 +50,13 @@
     "@tsconfig/node24": "^24.0.4",
     "@vitest/coverage-istanbul": "^4.1.10",
     "@vue/test-utils": "^2.4.11",
-    "eslint": "^10.6.0",
+    "eslint": "^10.7.0",
     "happy-dom": "^20.10.6",
     "lint-staged": "^17.0.8",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.3",
     "vitest": "^4.1.10",
-    "vue": "^3.5.39"
+    "vue": "^3.5.40"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm commitlint --edit ${1}",
